@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E7E7EB;
+}
+
+.title {
+    color: #303031;
+    font: 48px 'Urbanist', sans-serif;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.save-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#donwload-button{
+    margin-right: 120px;
+}
+
+#textarea {
+    font: 16px 'Urbanist', sans-serif;
+    left: 105px;
+    margin: 20px;
+    position: relative;
+}
+
+#button-block{
+    align-items: baseline;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-item {
+   background-color:#A8A8AC;
+   border-radius: 16px;
+   color:#303031;
+   font: 24px 'Urbanist', sans-serif;
+   height: 60px;
+   text-align: center;
+   transition: background-color  0.1s ease-in;
+   width: 120px;
+}
+
+.button-item:active {
+    background-color: #909094;
+}
